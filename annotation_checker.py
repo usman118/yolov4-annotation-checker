@@ -19,22 +19,22 @@ print(len(list_f))
 print(len(flat_list))
 # make list of your classes with name
 person = []
-cars = []
-Animals = []
-Faces = []
+# cars = []
+# Animals = []
+# Faces = []
 # create more if loop if you have more classes
 for c in flat_list:
-    if c == '0':
+    if c == '0':   #it will show only total no of 0 label
         person.append(c)
-    if c == '1':
-        cars.append(c)
-    if c == '2':
-        Animals.append(c)
-    if c == '3':
-        Faces.append(c)
+#     if c == '1':
+#         cars.append(c)
+#     if c == '2':
+#         Animals.append(c)
+#     if c == '3':
+#         Faces.append(c)
 
 
 print("Person  : ", len(person))
-print("Cars    : ", len(cars))
-print("Animals : ", len(Animals))
-print("Faces   : ", len(Faces))
+# print("Cars    : ", len(cars))
+# print("Animals : ", len(Animals))
+# print("Faces   : ", len(Faces))
